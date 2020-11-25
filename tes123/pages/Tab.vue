@@ -1,0 +1,23 @@
+<template lang="html">
+  <div v-show="isActive" class="tab">
+    <slot></slot>
+  </div>
+</template>
+
+<script>
+/* eslint-disable */
+export default {
+  props: {
+    title: {
+      type: String,
+      default: 'Tab'
+    }
+  },
+  data () {
+    return {
+      isActive: 'true'
+    }
+  }
+}
+</script>
+<style lang="css"></style>

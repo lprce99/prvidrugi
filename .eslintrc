@@ -1,0 +1,13 @@
+{
+  "extends": [
+    "@nuxtjs"
+  ],
+  "globals": {
+    "use": true,
+    "browser": true
+  },
+  "rules": {
+    "no-console": "off",
+    "vue/html-self-closing": "off",
+  }
+}
